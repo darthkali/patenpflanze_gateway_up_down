@@ -5,7 +5,7 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/dual_chan_pkt_fwd/
+WorkingDirectory=/home/pi/patenpflanze_gateway_up_down/
 ExecStart=/home/pi/patenpflanze_gateway_up_down/dual_chan_pkt_fwd
 Restart=on-failure
 RestartSec=5
